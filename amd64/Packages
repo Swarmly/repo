@@ -1,18 +1,39 @@
-Package: hellodeb
-Version: 0.1
-Architecture: all
-Maintainer: totti
-Installed-Size: 6
-Depends: zenity, bash
-Filename: ./hellodeb.deb
-Size: 1700
-MD5sum: 7e1d0329dd5bcea6783a2b513aa706e4
-SHA1: 0ee61d4641019eb39e497a1d90942b92f35f93bb
-SHA256: fd701a2428709c92906564ef9db84bf6c1b00886264ad6266da6af18f6a0cbec
-Section: testing
-Priority: optional
-Homepage: http://askubuntu.com
-Description: This is my first debian package.
- Guided by Totti Torvalds.
- In Description new line start with a space.
+apt 1.6.12ubuntu0.2 (amd64)
+Usage: apt-ftparchive [options] command
+Commands: packages binarypath [overridefile [pathprefix]]
+          sources srcpath [overridefile [pathprefix]]
+          contents path
+          release path
+          generate config [groups]
+          clean config
 
+apt-ftparchive generates index files for Debian archives. It supports
+many styles of generation from fully automated to functional replacements
+for dpkg-scanpackages and dpkg-scansources
+
+apt-ftparchive generates Package files from a tree of .debs. The
+Package file contains the contents of all the control fields from
+each package as well as the MD5 hash and filesize. An override file
+is supported to force the value of Priority and Section.
+
+Similarly apt-ftparchive generates Sources files from a tree of .dscs.
+The --source-override option can be used to specify a src override file
+
+The 'packages' and 'sources' command should be run in the root of the
+tree. BinaryPath should point to the base of the recursive search and 
+override file should contain the override flags. Pathprefix is
+appended to the filename fields if present. Example usage from the 
+Debian archive:
+   apt-ftparchive packages dists/potato/main/binary-i386/ > \
+               dists/potato/main/binary-i386/Packages
+
+Options:
+  -h    This help text
+  --md5 Control MD5 generation
+  -s=?  Source override file
+  -q    Quiet
+  -d=?  Select the optional caching database
+  --no-delink Enable delinking debug mode
+  --contents  Control contents file generation
+  -c=?  Read this configuration file
+  -o=?  Set an arbitrary configuration option
