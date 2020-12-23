@@ -1,0 +1,18 @@
+Package: hellodeb
+Version: 0.1
+Architecture: all
+Maintainer: totti
+Installed-Size: 6
+Depends: zenity, bash
+Filename: ./hellodeb.deb
+Size: 1700
+MD5sum: 7e1d0329dd5bcea6783a2b513aa706e4
+SHA1: 0ee61d4641019eb39e497a1d90942b92f35f93bb
+SHA256: fd701a2428709c92906564ef9db84bf6c1b00886264ad6266da6af18f6a0cbec
+Section: testing
+Priority: optional
+Homepage: http://askubuntu.com
+Description: This is my first debian package.
+ Guided by Totti Torvalds.
+ In Description new line start with a space.
+
