@@ -1,0 +1,6 @@
+Origin: SWARMLY
+Label: swarmly
+Codename: one
+Suite: stable
+Architectures: i386 amd64 source
+Components: main

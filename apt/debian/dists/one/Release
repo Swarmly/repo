@@ -1,0 +1,37 @@
+Origin: SWARMLY
+Label: swarmly
+Suite: stable
+Codename: one
+Date: Fri, 25 Dec 2020 10:25:36 UTC
+Architectures: i386 amd64
+Components: main
+MD5Sum:
+ 7a919fcde2cfbda789671fa9d6bafd26 517 main/binary-i386/Packages
+ 2744d67b1da90d48d864288d78dd985e 382 main/binary-i386/Packages.gz
+ 919e4642796fdfc792b73db0e4985dfb 82 main/binary-i386/Release
+ 7a919fcde2cfbda789671fa9d6bafd26 517 main/binary-amd64/Packages
+ 2744d67b1da90d48d864288d78dd985e 382 main/binary-amd64/Packages.gz
+ f148bd64e34d48ce3de2b166f77369a1 83 main/binary-amd64/Release
+ d41d8cd98f00b204e9800998ecf8427e 0 main/source/Sources
+ 7029066c27ac6f5ef18d660d5741979a 20 main/source/Sources.gz
+ 7d899ee502625c579a02d1557f624cc3 84 main/source/Release
+SHA1:
+ 684694e8847f3609dfe0be8d16479559e166cb33 517 main/binary-i386/Packages
+ 381e7aa35175a766a5ab9bed63e0297546290b1b 382 main/binary-i386/Packages.gz
+ 4da2a05c8066c9d27407f6b51b4ba660b2a90b4c 82 main/binary-i386/Release
+ 684694e8847f3609dfe0be8d16479559e166cb33 517 main/binary-amd64/Packages
+ 381e7aa35175a766a5ab9bed63e0297546290b1b 382 main/binary-amd64/Packages.gz
+ 43bbf6066fcdc016d3beb8bb5928f596241e67c3 83 main/binary-amd64/Release
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/source/Sources
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/source/Sources.gz
+ 1aac0f9c583bbdc3d3512c63cdea70a05728d6cd 84 main/source/Release
+SHA256:
+ 1c74a27fef32b7a08fbad03eaef73a27f97ceccf9fbbec5656a587e2a8c8e1bf 517 main/binary-i386/Packages
+ 922f899dc26c29e84d799c0800beb17d25518c799dbf8601405fa9a6bc829191 382 main/binary-i386/Packages.gz
+ f82ce8234e7eb3090dbe2d01634fb3e7ac598dd9c4f4afc0a4d945d1fac04392 82 main/binary-i386/Release
+ 1c74a27fef32b7a08fbad03eaef73a27f97ceccf9fbbec5656a587e2a8c8e1bf 517 main/binary-amd64/Packages
+ 922f899dc26c29e84d799c0800beb17d25518c799dbf8601405fa9a6bc829191 382 main/binary-amd64/Packages.gz
+ 93a4a308075b434112517aa61559285f10870833e2162cdf1edba852e2ef4f13 83 main/binary-amd64/Release
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/source/Sources
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/source/Sources.gz
+ fe79c2553843bc68bcc46466ccdb476fef002c5b590fd2d5d8b1b31934f5e7c4 84 main/source/Release
